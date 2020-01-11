@@ -14,6 +14,4 @@ public interface UserService {
 	public UserDTO getUserByName(String name);
 
 	public UserDTO findByName(String name);
-
-
 }

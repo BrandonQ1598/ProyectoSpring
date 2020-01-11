@@ -21,7 +21,7 @@ public class UserServiceImpl implements UserService{
 	@Override
 	public List<UserDTO> getUsers() {
 		return userconverter.ListUsertoUserDTO(userRepository.findAll());
-	//	return (List<User>) userRepository.findAll();
+
 	}
 	@Override
 	public UserDTO getUserByName(String name) {
